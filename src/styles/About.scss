@@ -1,0 +1,53 @@
+// 모바일
+
+// 디스플레이
+.about-section {
+  margin-top: 59px;
+  text-align: center;
+}
+
+.about-section .sec-tit {
+  margin-bottom: 30px;
+}
+
+.about-section .desc {
+  font-family: "PT Serif";
+  color: #616161;
+  line-height: 1.9;
+}
+
+// 태블릿
+@media all and(min-width:768px) {
+  .about-section {
+    margin-top: 95px;
+  }
+}
+
+// PC용
+@media all and(min-width:1132px) {
+  .about-section {
+    text-align: left;
+  }
+  .about-section .sec-tit {
+    float: left;
+    margin-bottom: 0;
+  }
+  .about-section .desc {
+    position: relative;
+    float: right;
+    padding-left: 20px;
+    font-family: "PT Serif";
+    color: #616161;
+    line-height: 1.9;
+  }
+  .about-section .desc:before {
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 2px;
+    height: 44px;
+    background: #e0e0e0;
+    content: "";
+  }
+}

@@ -1,0 +1,40 @@
+.section-visual {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/home.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: cover;
+  position: relative;
+}
+
+.section-visual .container {
+  padding: 160px 0;
+  color: #fff;
+}
+.section-visual img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.section-visual h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.section-visual span {
+  font-size: 30px;
+}
+#cursor {
+  border-left: 0.1em solid;
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
