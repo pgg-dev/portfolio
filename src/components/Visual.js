@@ -42,7 +42,6 @@ class Visual extends React.Component {
     return (
       <section className="section-visual">
         <div className="container">
-          {/* <img src="images/home.jpg" alt="" /> */}
           <div className="visual-text">
             <h1>{this.props.heading}&nbsp;</h1>
             <span>{this.state.text}</span>

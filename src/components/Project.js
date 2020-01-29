@@ -1,5 +1,6 @@
 import React, { forwardRef } from "react";
 import "../styles/Project.scss";
+import boxoffice from "../images/boxoffice.png";
 
 const Project = forwardRef((props, ref) => {
   console.log(ref);
@@ -9,7 +10,7 @@ const Project = forwardRef((props, ref) => {
         <h2 className="sec-tit">Project</h2>
         <ul className="project-list">
           <li>
-            <img src="/images/boxoffice.png" alt="boxoffice" />
+            <img src={boxoffice} alt="boxoffice" />
             <div className="project-contents">
               <div className="project-title">
                 <strong>01</strong>BOX OFFICE
